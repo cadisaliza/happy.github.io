@@ -1,0 +1,28 @@
+body{
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("hh.jpg");
+    background-size: cover;
+}
+
+.content {
+    background-image: url("hh.jpg");
+    width: 250px;
+    padding: 20px;
+    position:absolute;
+    top: 70% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(26, 2, 2);
+}
+
+.content h1{
+    text-transform: uppercase;
+}
+
+.content img{
+    width: 50%;
+    border-radius: 50%;
+}
